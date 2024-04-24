@@ -1,0 +1,14 @@
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - xarray
+  - matplotlib
+  - pip
+  - pip:
+    - scikit-learn
+    - seaborn
+    - xgboost
